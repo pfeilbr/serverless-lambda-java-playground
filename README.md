@@ -1,5 +1,7 @@
 # serverless-lambda-java-playground
 
+[serverless framework](https://serverless.com/) + [lambda java](https://docs.aws.amazon.com/lambda/latest/dg/java-programming-model.html)
+
 ## Build and Deploy
 
 ```sh
