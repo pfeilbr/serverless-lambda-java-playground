@@ -9,7 +9,7 @@ cd ~/projects/serverless-lambda-java-playground
 serverless create --template aws-java-maven
 mvn clean install
 sls deploy --verbose
-sls invoke --function hello
+sls invoke --function hello --data '{"msg": "hello"}' --log
 ```
 
 ```json
