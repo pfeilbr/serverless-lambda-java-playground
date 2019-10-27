@@ -12,6 +12,17 @@ sls deploy --verbose
 sls invoke --function hello
 ```
 
+```json
+{
+    "statusCode": 200,
+    "body": "{\"message\":\"Go Serverless v1.x! Your function executed successfully!\",\"input\":{}}",
+    "headers": {
+        "X-Powered-By": "AWS Lambda & serverless"
+    },
+    "isBase64Encoded": false
+}
+```
+
 ## Resources
 
 * [How to create a REST API in Java using DynamoDB and Serverless](https://serverless.com/blog/how-to-create-a-rest-api-in-java-using-dynamodb-and-serverless/)
